@@ -1191,3 +1191,7 @@
 	filter: grayscale(100%);
   transition: all 0.3s;
 }
+
+#services .about-content .fa {
+  color: #831138;
+}
