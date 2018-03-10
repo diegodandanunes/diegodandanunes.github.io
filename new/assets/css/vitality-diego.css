@@ -1520,6 +1520,18 @@ margin-bottom: 30px;
   font-size: 14px;
 }
 
+.portfolio-preview-wrapper {
+  height: 200px;
+  width: auto;
+}
+
+.modal-body .col-lg-8 img {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+  border: 3px solid white;
+}
+
 
 /* CUSTOM MEDIA QUERIES */
 
