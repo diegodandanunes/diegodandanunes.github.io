@@ -1520,16 +1520,35 @@ margin-bottom: 30px;
   font-size: 14px;
 }
 
-.portfolio-preview-wrapper {
+.portfolio-wrapper {
   height: 200px;
   width: auto;
+  overflow: hidden;
+}
+
+#portfoliolist .portfolio {
+  -webkit-box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.10);
+  box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.10);
+  transition: all 0.3s;
+}
+
+#portfoliolist .portfolio:hover {
+  -webkit-box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.50);
+  box-shadow: 7px 5px 15px 0px rgba(0,0,0,0.50);
 }
 
 .modal-body .col-lg-8 img {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
-  border: 3px solid white;
+  border: 3px solid @white;
+}
+
+.profile-pic {
+  max-height: 300px;
+  margin: auto;
 }
 
 
@@ -1544,3 +1563,10 @@ margin-bottom: 30px;
     font-size: 12px;
   }
 }
+
+@media (max-width: 450px) {
+  .logo-main {
+    padding: 15px;
+  }
+}
+
